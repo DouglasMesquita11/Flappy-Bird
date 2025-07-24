@@ -30,7 +30,7 @@ public class Bird : MonoBehaviour
     {
         if (jumping)
         {
-            rb.velocity = Vector2.down * jumpSpeed;
+            rb.velocity = Vector2.up * jumpSpeed;
             jumping = false;
         }
     }
